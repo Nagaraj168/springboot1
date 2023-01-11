@@ -1,0 +1,75 @@
+->Develop a java program to store integer objects as the key which indicates student_id and student objects as the value inside LinkedHashMap.
+->Every student object with have 3 attributes called as id, name and marks.
+->Get all the values(student object) from the LinkedHashMap and store inside ArrayList.
+->Based on the input or choice from the user sort based on id or name or marks. 
+
+Note:
+	1) Achieve upcasting.
+	2) Use put() for Map and add method for List.
+	3) Use Comparator for sorting.
+	4) Use Collections.sort()
+	5) In Student Class the data members are private therefore use constructor for setting the data and have 3 respective getter().
+
+
+
+
+
+2nd Project:
+
+1. Collection Project-2
+2. jspiders
+3. MainClass.java
+-------------------
+1. public ->Employee
+2. privatre ->name and salary
+3. public ->constructor
+4. 2 public getter()
+5. toString() ->Salary of tom is 2.5
+--------------------------
+1. create 3 emp instances.
+2. upcasting ->Map and LinkedHashMap ->put(K,V)
+3. keys -> employee names and values -> employee Objects
+----------------------------------------------------------
+1. Convert Map into a set of Keys.
+2. upcasting ->List and ArrayList ->add()
+3. get all the values(mployee objects) from Map and Store it inside ArrayList.
+4. Traverse the Objects from ArrayList
+
+3rd Project(Imp)
+
+1. Project ->SDBMS
+2. package ->com.jspiders
+3. Class ->Solution.java ->main()
+--------------------------------
+Interface ->StudentManagementSystem
+1. Add Student
+2. displatStudent
+3. displayAllStudent
+4. removeStudent
+5. removeAllStudent
+6. updateStudent
+7. countStudent
+8. sortStudent
+--------------
+Implementation Class -> StudentManagementSystemImpl
+2. IS-A ->implements
+3. Contract of Abstract ->Override
+------------------------------------
+public class-> Student
+private attribute -> id, age,name and marks.
+public constructor -> age, name and marks, id->generate automatically
+public 3 setter methods and 4 getters method
+public toString()
+--------------------------------
+Collection ->Database ->Map & LinkedHashMap ->key(String) ->value(Student)
+Scanner
+ 
+
+
+
+
+
+
+
+
+
